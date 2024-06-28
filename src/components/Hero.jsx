@@ -1,7 +1,7 @@
 // src/components/Hero.jsx
 const Hero = () => {
   return (
-    <section className="hero flex flex-col justify-end md:h-[94vh] h-[96vh]">
+    <section className="hero flex flex-col justify-end md:h-[94vh] h-[94vh]">
       <div className="pb-20 pr-6 md:pr-16 lg:pr-60">
         <h1 className="text-5xl md:text-7xl lg:text-9xl mb-2 leading-tight font-semibold">
           Garv Rawlot

@@ -41,10 +41,12 @@ const Projects = () => {
   ];
 
   return (
-    <section className="pb-20 pt-12">
+    <section className=" md:py20 lg:pb-20 lg:pt-12">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-10 gap-4">
         <div className="col-span-1 md:col-span-2 lg:col-span-3">
-          <h2 className="text-2xl md:text-2xl font-semibold pt-12">Projects</h2>
+          <h2 className="text-2xl md:text-2xl font-semibold lg:pt-12">
+            Projects
+          </h2>
         </div>
         <div className="col-span-1 md:col-span-3 lg:col-span-7">
           <HoverEffect items={projects} className="mt-0" />

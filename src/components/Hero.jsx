@@ -36,7 +36,7 @@ const Hero = () => {
             href="https://github.com/garv-2501"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-lg md:text-xl bg-gray-900 text-white border border-gray-900 hover:bg-gray-800 px-6 py-3 rounded-full"
+            className="text-lg md:text-xl bg-gray-900 text-white border border-gray-900 hover:bg-gray-700 px-6 py-3 rounded-full"
           >
             GitHub
           </a>

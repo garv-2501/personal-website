@@ -26,7 +26,7 @@ const About = () => {
             <p className="col-span-2 md:col-span-3 lg:col-span-7 text-lg font-medium text-zinc-600 dark:text-zinc-400 leading-relaxed">
               Tackling complex problems. Building consensus and momentum towards
               a shared vision. Empowering non-designers to provide confident,
-              actionable feedback...
+              actionable feedback and more...
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-10 gap-4">

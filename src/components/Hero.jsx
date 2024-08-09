@@ -1,10 +1,17 @@
 // src/components/Hero.jsx
+import { TextGenerateEffect } from "./ui/text-generate-effect";
+
 const Hero = () => {
+  const nameWords = "Garv Rawlot";
+
   return (
     <section className="hero flex flex-col justify-end lg:h-[94vh] md:h-[90vh] h-[94vh]">
       <div className="pb-20 pr-6 md:pr-16 lg:pr-60">
         <h1 className="text-5xl md:text-7xl lg:text-9xl mb-2 leading-tight font-semibold">
-          Garv Rawlot
+          <TextGenerateEffect
+            words={nameWords}
+            className="text-5xl md:text-7xl lg:text-9xl leading-tight font-semibold"
+          />
         </h1>
         <p className="text-base md:text-lg mb-6 opacity-75 font-semibold">
           Software Developer, AI Researcher, Designer, Open-Source Advocate.

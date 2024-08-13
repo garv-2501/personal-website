@@ -14,12 +14,12 @@ const Hero = () => {
           />
         </h1>
         <p className="text-base md:text-lg mb-6 opacity-75 font-semibold">
-          Software Developer, AI Researcher, Designer, Open-Source Advocate.
+          Software Developer, AI Researcher, Open-Source Advocate.
         </p>
         <p className="text-lg md:text-xl lg:text-3xl mb-12 font-semibold">
           <span className="opacity-50">&lt;h2&gt;</span> 👋 I&apos;m Garv
-          Rawlot, a Software Developer from London. I specialize in the
-          application and research of artificial intelligence technologies.
+          Rawlot, a Software Developer from London. I&apos;m passionate about
+          exploring the application and research of AI technologies.
           <span className="opacity-50">&lt;/h2&gt;</span>
         </p>
         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-8">

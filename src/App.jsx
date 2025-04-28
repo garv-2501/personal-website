@@ -1,9 +1,11 @@
+// src/App.jsx
 import { useState, useEffect } from "react";
 import "./index.css";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 import { ShootingStarsAndStarsBackgroundDemo } from "./components/ui/shooting-stars-and-stars-background-demo";
 import { BackgroundGradientAnimationDemo } from "./components/ui/background-gradient-animation-demo";
 
@@ -51,7 +53,10 @@ const App = () => {
         <main className="w-full">
           <About />
           <Skills />
+          {/*
           <Projects />
+          */}
+          <Contact />
         </main>
       </div>
     </div>

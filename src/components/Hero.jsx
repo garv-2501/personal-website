@@ -24,12 +24,12 @@ const Hero = () => {
         </p>
         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-8">
           <a
-            href="https://garv-rawlot.medium.com"
+            href="https://synagi.ai"
             target="_blank"
             rel="noopener noreferrer"
             className="text-lg md:text-xl bg-green-600 text-white border border-green-600 hover:bg-green-500 px-6 py-3 rounded-full"
           >
-            Medium
+            Synagi AI
           </a>
           <a
             href="https://www.linkedin.com/in/garv-singh-rawlot/"

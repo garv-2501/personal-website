@@ -177,3 +177,5 @@ export const BackgroundGradientAnimation = ({
     </div>
   );
 };
+
+
